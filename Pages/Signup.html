@@ -1,0 +1,95 @@
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="P Css/login.css">
+    <link rel="icon" href="../Matriales/CodeCrateMini-logo.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Code Crate</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar-shadow">
+        <article>
+            <a href="../index.html">
+                <img src="../Matriales/CodeCratelogo.svg" alt="Logo">
+            </a>
+        </article>
+        <article class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="Courses.html">Courses</a>
+            <a href="About.html">About</a>
+            <a href="ContactUs.html">Contact</a>
+        </article>
+        <article class="nav-buttons">
+            <a href="Signup.html" id="signup">Signup</a>
+            <a href="Login.html" id="login">Login</a>
+        </article>
+    </nav>
+    <main class="signup-main-container">
+        <h1>Create New Account</h1>
+        <form action="" class="signup-form">
+            <input type="text" name="name" placeholder="Name" autocomplete="name" required maxlength="20" minlength="3">
+            <input type="tel" name="phone" placeholder="Phone" autocomplete="phone" required maxlength="11" minlength="11">
+            <input type="email" name="email" placeholder="Email" autocomplete="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <input type="password" name="password" placeholder="Password" required maxlength="20" minlength="8" pattern="([a-z])([A-Z])([0-9])([@])">
+            <input type="password" name="confirm-password" placeholder="Confirm Password" required maxlength="20" minlength="8">
+            <button type="submit" id="signup-button"><span class="material-symbols-outlined">person_add</span>Signup</button>
+            <p>Already have an account? <a href="Login.html">Login</a></p>
+        </form>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">
+            <img src="../Matriales/CodeCratefooter.svg" alt="Logo">
+            <p>Your path to lifelong learning and professional growth. Empowering minds, one course at a time.</p>
+        </div>
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <div class="footer-links-container">
+                <a href="index.html">Home</a>
+                <a href="Pages/About.html">About Us</a>
+                <a href="Pages/Courses.html">Courses</a>
+                <a href="Pages/ContactUs.html">Contact</a>
+            </div>
+        </div>
+        <div class="footer-links">
+            <h3>Categories</h3>
+            <div class="footer-links-container">
+                <a>Web Dev</a>
+                <a>Programming</a>
+                <a>Software Dev</a>
+                <a>Graphic Design</a>
+            </div>
+        </div>
+        <div class="footer-links footer-links2md">
+            <h3>Follow Us</h3>
+            <div class="footer-links-container">
+                <a><i class="fa-brands fa-facebook"></i> Facebook</a>
+                <a><i class="fa-brands fa-twitter"></i> Twitter</a>
+                <a><i class="fa-brands fa-instagram"></i> Instagram</a>
+            </div>
+        </div>
+        <div class="footer-links footer-links2md footer-links3md">
+            <h3>Legal</h3>
+            <div class="footer-links-container">
+                <a>Privacy Policy</a>
+                <a>Terms of Service</a>
+                <a>FAQ</a>
+            </div>
+        </div>                    
+        <h4>© 2025 Code-Crate. All rights reserved  Developed by Kiro Magdy</h4>
+</footer>
+    <script src="JS/scripts.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>

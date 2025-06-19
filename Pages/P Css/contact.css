@@ -1,0 +1,132 @@
+.contact-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.contact-main h1{
+    font-family: "Kanit", sans-serif;
+    font-size: 65px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.contact-main p {
+    font-family: "Kanit", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 85%;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    gap: 10px;
+}
+.contact-form input{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Kanit", sans-serif;
+    color: rgb(66, 66, 66);
+}
+.contact-form textarea{
+    width: 80%;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Kanit", sans-serif;
+    color: rgb(66, 66, 66);
+}
+.contact-form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 10px 20px;
+    width: 85%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: var(--primary-color);
+    color: white;
+    font-family: "Kanit", sans-serif;
+    transition: 0.3s ease-in-out;
+}
+.contact-form button:hover{
+    background-color: #4d0bd0;
+}
+.contact-form button span{
+    font-size: 20px;
+    margin-right: 10px;
+}
+#contact-info{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Kanit", sans-serif;
+    color: rgb(66, 66, 66);
+    margin-top: 10px;
+}
+@media (max-width: 768px) {
+    .contact-main{
+        width: 85%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .contact-main h1{
+        font-family: "Kanit", sans-serif;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .contact-main p {
+        font-family: "Kanit", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(66, 66, 66);
+        margin: 0;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 85%;
+    }
+    .contact-form{
+        width: 85%;
+        gap: 5px;
+    }
+    .contact-form button{
+        font-size: 18px;
+    }
+    .contact-form button span{
+        font-size: 21px;
+        margin-right: 5px;
+    }
+    #contact-info{
+        font-size: 12px;
+        font-weight: 100;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,224 @@
+.login-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 35%;
+    height: auto;
+    background-color: #F2F2F2;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.login-main-container h1{
+    font-family: "Kanit", sans-serif;
+    font-size: 65px;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    gap: 10px;
+}
+.login-form input{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Kanit", sans-serif;
+    color: rgb(66, 66, 66);
+}
+#login-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 10px 20px;
+    width: 85%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    font-family: "Kanit", sans-serif;
+    transition: 0.3s ease-in-out;
+}
+#login-button:hover{
+        background-color: #4d0bd0;
+}
+#login-button span{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.login-form p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Kanit", sans-serif;
+    color: rgb(66, 66, 66);
+    margin-bottom: 40px;
+}
+.login-form p a{
+    font-size: 20px;
+    color: #4d0bd0;
+}
+/*-------------------------------------------*/
+.signup-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 45%;
+    height: auto;
+    background-color: #F2F2F2;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.signup-main-container h1{
+    font-family: "Kanit", sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    gap: 10px;
+}
+.signup-form input{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Kanit", sans-serif;
+    color: rgb(66, 66, 66);
+}
+#signup-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px 20px;
+    width: 85%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #1bbd57;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    transition: 0.3s ease-in-out;
+}
+#signup-button span{
+    font-size: 20px;
+    margin-right: 10px;
+}
+#signup-button:hover{
+    background-color: #158f41;
+}
+.signup-form p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Kanit", sans-serif;
+    color: rgb(66, 66, 66);
+    margin-bottom: 40px;
+}
+.signup-form p a{
+    font-size: 20px;
+    color: #4d0bd0;
+}
+/*------------------media queries------------------*/
+@media (max-width: 768px) {
+    .login-main-container{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 80%;
+    }
+    .login-main-container h1{
+        font-size: 40px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .login-form {
+        width: 90%;
+        gap: 10px;
+    }
+    .login-form input{
+        width: 70%;
+        height: 30px;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    #login-button{
+        width: 78%;
+        padding: 5px;
+    }
+    .login-form p{
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .login-form p a{
+        font-size: 18px;
+    }
+    .signup-main-container{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 80%;
+    }
+    .signup-main-container h1{
+        font-size: 27px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .signup-form {
+        width: 90%;
+        gap: 10px;
+    }
+    .signup-form input{
+        width: 70%;
+        height: 30px;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    #signup-button{
+        width: 78%;
+        padding: 5px;
+    }
+    .signup-form p{
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .signup-form p a{
+        font-size: 18px;
+    }
+}

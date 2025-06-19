@@ -1,0 +1,120 @@
+.all-courses-h1{
+    text-align: center;
+    font-size: 65px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.all-courses-search-container{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 10px;
+    margin-bottom: 80px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.all-courses-search-container h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.all-courses-search-container h3 span{
+    font-size: 22px;
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+.all-courses-search-container p{
+    font-size: 16px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    color: rgb(50, 50, 50);
+    margin: 0;
+}
+.Search{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+.Search input{
+    padding: 10px;
+    width: 98%;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid #dfdfdf;
+    background-color: #f2f2f2;
+    outline: none;
+    font-size: 16px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    color: rgb(50, 50, 50);
+    transition: all 0.1s ease-in-out;
+}
+.Search input:focus{
+    border: 2px solid rgb(92, 92, 92);
+}
+.Search input::placeholder{
+    font-size: 16px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    color: rgb(92, 92, 92);
+}
+.search-categories-container{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.search-categories-container h4{
+    font-size: 20px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.categories-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.categories-container a{
+    font-size: 16px;
+    font-family: "Kanit", sans-serif;
+    background-color: #dcdcdc;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 500;
+    color: rgb(79, 79, 79);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.categories-container a:hover {
+    transform: scale(1.1);
+    background-color: #a4a4a4;
+    color: black;
+}
+@media (max-width: 768px) {
+    .all-courses-h1{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+}
